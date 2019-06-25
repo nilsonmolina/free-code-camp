@@ -1,4 +1,4 @@
-const { convertToRoman } = require('../romanNumeralConverter');
+const { convertToRoman } = require('../02-romanNumeralConverter');
 
 describe('Project 2: Roman Numeral Converter', () => {
   it('Must pass all of the given examples', () => {
