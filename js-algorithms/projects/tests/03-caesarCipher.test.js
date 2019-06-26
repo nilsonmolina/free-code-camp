@@ -1,6 +1,6 @@
 const { rot13 } = require('../03-caesarCipher');
 
-describe('Project 2: Roman Numeral Converter', () => {
+describe('Project 3: Caesar Cipher', () => {
   it('Must pass all of the given examples', () => {
     expect(rot13('SERR PBQR PNZC')).toBe('FREE CODE CAMP');
     expect(rot13('SERR CVMMN!')).toBe('FREE PIZZA!');
